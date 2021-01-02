@@ -112,6 +112,64 @@ body {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+/* Form */
+
+/* Range */
+
+.mr-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+}
+  
+.mr-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%; 
+    background: var(--colorAccent);
+    cursor: pointer;
+}
+  
+.mr-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--colorAccent);
+    cursor: pointer;
+}
+
+/* Text Field */
+
+.mr-textfield {
+    position: relative;
+    overflow: hidden;
+    font-size: .875rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+    letter-spacing: .0892857143em;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--colorAccent);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.mr-input--tf {
+    font-size: .875rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
 
 /* Ripple */
 
