@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Caterial Example</title>
+
+    <link rel="stylesheet" href="./css/caterial.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <div style="text-align: center; margin-left: auto; margin-right: auto; width: fit-content; margin-bottom: 10px;">
+      <h1>Caterial Example</h1>
+      <h2>Buttons</h2>
+      <button class="mr-button">
+        <span class="mr-button-text">Caterial Button</span>
+        <span class="mr-ripple"></span>
+      </button>
+      <br><br>
+      <button class="mr-button--text">
+        <span class="mr-button-text">Caterial Text Button</span>
+        <span class="mr-ripple"></span>
+      </button>
+      <br><br>
+      <button class="mr-button--outline">
+        <span class="mr-button-text">Caterial Outline Button</span>
+        <span class="mr-ripple"></span>
+      </button>
+      <h2>Cards</h2>
+      <div class="mr-card">
+        <div class="mr-card-image" style="background-image: url('./img/card.jpg');"></div>
+        <span class="mr-card-title">Caterial Card</span>
+        <div class="mr-card-content">
+          Card Content
+        </div>
+      </div>
+      <br>
+      <div class="mr-card--hoverable">
+        <div class="mr-card-image" style="background-image: url('./img/card.jpg');"></div>
+        <span class="mr-card-title">Caterial Hoverable Card</span>
+        <div class="mr-card-content">
+          Card Content
+        </div>
+      </div>
+      <h2>Form</h2>
+    </div>
+    <footer style="text-align: center;">
+      &copy; <span id="year"></span> TheClashFruit & ThatCakeID
+    </footer>
+
+    <script src="./js/caterial.js"></script>
+    <script>
+      document.getElementById("year").innerText = new Date().getFullYear();
+    </script>
+  </body>
+</html>
