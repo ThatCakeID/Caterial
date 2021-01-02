@@ -1,3 +1,11 @@
+/* Caterial
+ * 
+ * Made by TheClashFruit a member of ThatCakeID.
+ *
+ * Copyright 2021 ThatCakeID
+ * Licensed Under Apache-2.0 License
+ */
+
 function createRipple(event) {
   const button = event.currentTarget;
 
