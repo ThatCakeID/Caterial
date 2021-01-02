@@ -1,17 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Caterial - Docs</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./css/caterial.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  </head>
-  <body>
-	Docs
-  
-    <script src="./js/caterial.js"></script>
-  </body>
+  <title>Caterial - Docs</title>
+
+  <link rel="stylesheet" href="../framework/caterial.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    * {
+      margin: 2px;
+    }
+  </style>
+</head>
+
+<body style="display: flex; flex-direction: column;">
+  <h1 style="text-align: center; align-items: center;">Docs</h1>
+
+
+  <section>
+    <hr>
+    <h3>Button</h3>
+    <div>
+      Normal button:
+      <button class="mr-button">
+        <span class="mr-button-text">Caterial Button</span>
+        <span class="mr-ripple"></span>
+      </button>
+      <button style="display:flex;"
+        onclick="document.getElementById('a').select();document.getElementById('a').setSelectionRange(0, 99999); document.execCommand('copy');"
+        class="mr-button--text">
+        <span class="mr-button-text">Copy</span>
+        <span class="mr-ripple"></span>
+      </button>
+      <textarea id="a"
+        style="resize: none;
+text-align: top!important; width:500px; height: 100px;background-color: rgb(32, 31, 31); color: white; outline: none; border-radius: 4px;"></textarea>
+
+      <script>
+        document.getElementById("a").value = '<button class="mr - button">' +
+          '<span class="mr-button-text" > Caterial Button</span >' +
+          '<span class="mr-ripple"></span>' +
+          '</button >';
+      </script>
+    </div>
+    <div>
+      Text button:
+      <button class="mr-button--text">
+        <span class="mr-button-text">Caterial Text Button</span>
+        <span class="mr-ripple"></span>
+      </button>
+      <button style="display:flex;"
+        onclick="document.getElementById('a').select();document.getElementById('a').setSelectionRange(0, 99999); document.execCommand('copy');"
+        class="mr-button--text">
+        <span class="mr-button-text">Copy</span>
+        <span class="mr-ripple"></span>
+      </button>
+      <textarea id="a"
+        style="resize: none;
+text-align: top!important; width:500px; height: 100px;background-color: rgb(32, 31, 31); color: white; outline: none; border-radius: 4px;"></textarea>
+
+      <script>
+        document.getElementById("a").value = ' <button class="mr-button--text">' +
+          '<span class="mr-button-text">Caterial Text Button</span >' +
+          '<span class="mr-ripple"></span>' +
+          '</button >';
+      </script>
+    </div>
+    <div>
+      Outline button:
+      <button class="mr-button--outline">
+        <span class="mr-button-text">Caterial Outline Button</span>
+        <span class="mr-ripple"></span>
+      </button>
+      <button style="display:flex;"
+        onclick="document.getElementById('a').select();document.getElementById('a').setSelectionRange(0, 99999); document.execCommand('copy');"
+        class="mr-button--text">
+        <span class="mr-button-text">Copy</span>
+        <span class="mr-ripple"></span>
+      </button>
+      <textarea id="a"
+        style="resize: none;
+    text-align: top!important; width:500px; height: 100px;background-color: rgb(32, 31, 31); color: white; outline: none; border-radius: 4px;"></textarea>
+
+      <script>
+        document.getElementById("a").value = ' <button class="mr-button--outline">' +
+          '<span class="mr-button-text">Caterial Outline Button</span >' +
+          '<span class="mr-ripple"></span>' +
+          '</button >';
+      </script>
+    </div>
+    <hr>
+  </section>
+  <script src="../framework/caterial.js"></script>
+</body>
+
 </html>
