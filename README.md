@@ -8,38 +8,167 @@
     <img alt="Made By" src="https://img.shields.io/badge/Made%20By-TheClashFruit-brightgreen?style=for-the-badge">
 </p>
 
-Compenent List:
+<h2 align="center">Compenent List</h1>
 
-|        Compenent       | Added | Caterial Version |
-|:----------------------:|:-----:|:----------------:|
-|     Bottom App Bar     |   No  |    Not Planned   |
-|       Top App Bar      |   No  |    Public v1.0   |
-|        Backdrop        |   No  |    Not Planned   |
-|         Banner         |   No  |    Public v1.0   |
-|    Bottom Navigation   |   No  |     Beta b1.0    |
-|         Buttons        |  Yes  |    Alpha a1.0    |
-| Floating Action Button |   No  |    Alpha a1.1    |
-|          Cards         |  Yes  |    Alpha a1.0    |
-|       Checkboxes       |   No  |    Alpha a1.1    |
-|          Chips         |   No  |    Alpha a1.1    |
-|       Data Tables      |   No  |      Unknown     |
-|       Date Picker      |   No  |      Unknown     |
-|         Dialogs        |   No  |    Alpha a1.1    |
-|        Dividers        |   No  |    Alpha a1.1    |
-|       Image List       |   No  |      Unknown     |
-|          Lists         |   No  |    Alpha a1.1    |
-|          Menus         |   No  |    Alpha a1.2    |
-|    Navigation Drawer   |   No  |      Unknown     |
-|     Navigation Rail    |   No  |   Alpha a1.2-3   |
-|   Progress Indicators  |   No  |    Alpha a1.2    |
-|      Radio Buttons     |   No  |    Alpha a1.1    |
-|      Bottom Sheet      |   No  |   Alpha a1.1-2   |
-|       Side Sheet       |   No  |      Unknown     |
-|         Sliders        |  Yes* |    Alpha a1.0    |
-|        Snackbars       |   No  |   Alpha a1.1-2   |
-|        Switches        |   No  |    Alpha a1.1    |
-|          Tabs          |   No  |   Alpha a1.1-2   |
-|       Text Fiels       |  Yes* |    Alpha a1.0    |
-|      Time Pickers      |   No  |      Unknown     |
-|        Tooltips        |   No  |    Alpha a1.1    |
-* *Implementation not final.
+<table style="width: 100%;">
+<thead>
+  <tr>
+    <th>Compenent</th>
+    <th>Added</th>
+    <th>Caterial Version</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Bottom App Bar</td>
+    <td>No</td>
+    <td>Not Planned</td>
+  </tr>
+  <tr>
+    <td>Top App Bar</td>
+    <td>No</td>
+    <td>Public v1.0</td>
+  </tr>
+  <tr>
+    <td>Backdrop</td>
+    <td>No</td>
+    <td>Not Planned</td>
+  </tr>
+  <tr>
+    <td>Banner</td>
+    <td>No</td>
+    <td>Public v1.0</td>
+  </tr>
+  <tr>
+    <td>Bottom Navigation</td>
+    <td>No</td>
+    <td>Beta b1.0</td>
+  </tr>
+  <tr>
+    <td>Buttons</td>
+    <td>Yes</td>
+    <td>Alpha a1.0</td>
+  </tr>
+  <tr>
+    <td>Floating Action Button</td>
+    <td>No</td>
+    <td>Alpha a1.1</td>
+  </tr>
+  <tr>
+    <td>Cards</td>
+    <td>Yes</td>
+    <td>Alpha a1.0</td>
+  </tr>
+  <tr>
+    <td>Checkboxes</td>
+    <td>No</td>
+    <td>Alpha a1.1</td>
+  </tr>
+  <tr>
+    <td>Chips</td>
+    <td>No</td>
+    <td>Alpha a1.1</td>
+  </tr>
+  <tr>
+    <td>Data Tables</td>
+    <td>No</td>
+    <td>Unknown</td>
+  </tr>
+  <tr>
+    <td>Date Picker</td>
+    <td>No</td>
+    <td>Unknown</td>
+  </tr>
+  <tr>
+    <td>Dialogs</td>
+    <td>No</td>
+    <td>Alpha a1.1</td>
+  </tr>
+  <tr>
+    <td>Dividers</td>
+    <td>No</td>
+    <td>Alpha a1.1</td>
+  </tr>
+  <tr>
+    <td>Image List</td>
+    <td>No</td>
+    <td>Unknown</td>
+  </tr>
+  <tr>
+    <td>Lists</td>
+    <td>No</td>
+    <td>Alpha a1.1</td>
+  </tr>
+  <tr>
+    <td>Menus</td>
+    <td>No</td>
+    <td>Alpha a1.2</td>
+  </tr>
+  <tr>
+    <td>Navigation Drawer</td>
+    <td>No</td>
+    <td>Unknown</td>
+  </tr>
+  <tr>
+    <td>Navigation Rail</td>
+    <td>No</td>
+    <td>Alpha a1.2-3</td>
+  </tr>
+  <tr>
+    <td>Progress Indicators</td>
+    <td>No</td>
+    <td>Alpha a1.2</td>
+  </tr>
+  <tr>
+    <td>Radio Buttons</td>
+    <td>No</td>
+    <td>Alpha a1.1</td>
+  </tr>
+  <tr>
+    <td>Bottom Sheet</td>
+    <td>No</td>
+    <td>Alpha a1.1-2</td>
+  </tr>
+  <tr>
+    <td>Side Sheet</td>
+    <td>No</td>
+    <td>Unknown</td>
+  </tr>
+  <tr>
+    <td>Sliders</td>
+    <td>Yes*</td>
+    <td>Alpha a1.0</td>
+  </tr>
+  <tr>
+    <td>Snackbars</td>
+    <td>No</td>
+    <td>Alpha a1.1-2</td>
+  </tr>
+  <tr>
+    <td>Switches</td>
+    <td>No</td>
+    <td>Alpha a1.1</td>
+  </tr>
+  <tr>
+    <td>Tabs</td>
+    <td>No</td>
+    <td>Alpha a1.1-2</td>
+  </tr>
+  <tr>
+    <td>Text Fiels</td>
+    <td>Yes*</td>
+    <td>Alpha a1.0</td>
+  </tr>
+  <tr>
+    <td>Time Pickers</td>
+    <td>No</td>
+    <td>Unknown</td>
+  </tr>
+  <tr>
+    <td>Tooltips</td>
+    <td>No</td>
+    <td>Alpha a1.1</td>
+  </tr>
+</tbody>
+</table>
+*Implementation not final.
