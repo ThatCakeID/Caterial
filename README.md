@@ -10,7 +10,7 @@
 
 <h2 align="center">Compenent List</h1>
 
-<table style="width: 100%;">
+<table align="center">
 <thead>
   <tr>
     <th>Compenent</th>
@@ -171,4 +171,4 @@
   </tr>
 </tbody>
 </table>
-*Implementation not final.
+<p align="center">*Implementation not final.</p>
