@@ -1,5 +1,5 @@
 <p align="center" class="icons">
-    <img alt="icon" src="https://caterial.theclashfruit.xyz/img/icon.png">
+    <img alt="icon" src="https://thatcakeid.github.io/Caterial/img/icon.png">
 </p>
 <h1 align="center">Caterial</h1>
 <p align="center" class="badges">
