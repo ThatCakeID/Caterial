@@ -14,8 +14,8 @@ function createRipple(event) {
   const radius = diameter / 2;
 
   circle.style.width = circle.style.height = `${diameter}px`;
-  circle.style.left = `${event.clientX - button.offsetLeft - radius}px`;
-  circle.style.top = `${event.clientY - button.offsetTop - radius}px`;
+  circle.style.left = `${event.pageX - button.offsetLeft - radius}px`;
+  circle.style.top = `${event.pageY - button.offsetTop - radius}px`;
   circle.classList.add("mr-ripple");
 
   const ripple = button.getElementsByClassName("mr-ripple")[0];
