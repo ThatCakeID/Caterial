@@ -8,7 +8,7 @@
     <img alt="Made By" src="https://img.shields.io/badge/Made%20By-TheClashFruit-brightgreen?style=for-the-badge">
 </p>
 
-<h2 align="center">Compenent List</h1>
+<h2 align="center">Compenent List</h2>
 
 <table align="center">
 <thead>
@@ -172,7 +172,7 @@
 </tbody>
 </table>
 
-<h2 align="center">Web Special Compenent List</h1>
+<h2 align="center">Web Special Compenent List</h2>
 
 <table align="center">
 <thead>
